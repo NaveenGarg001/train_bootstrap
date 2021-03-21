@@ -1,0 +1,362 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Big Shoulders Text', cursive;}
+
+body{}
+
+.nav_bg{background-color: transparent; padding: 0px 0 40px 40px; } 
+
+.arti_p{font-size: 36px !important; font-family: font-family: 'Bitter', serif !important;}
+
+.logi_move{background-image:url(../images/hero.png); background-size: 100% auto;   background-repeat: no-repeat; 
+ box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 50%); padding: 60px 0; width: 100%;}
+
+ ul.navbar-nav.nav_bar {  padding-left: 50px;}
+
+.email li i{background-color: #D62536; font-size: 16px;
+    padding: 10px 10px;
+    margin-right: 20px;}
+
+ .email li {color:#fff; list-style: none; font-size: 20px;
+    font-weight: 700; }
+
+.email li:hover i{border-radius: 20px; color: #fff; } 
+
+.email li:hover{color: #D62536;}   
+
+.hero_contest {color: #fff; width: 33%; letter-spacing: 3px;     margin-left: 50px;}
+
+.hero_contest h1{font-weight: 700; font-size: 72px; letter-spacing: 3px;}
+
+.hero_contest p{font-size: 22px;  }
+
+.hero_contest button{background-color: #D62536;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0;
+    font-weight: 700;
+    padding: 20px 60px;}
+
+.section_one{width: 100%; float: left; margin-top: 180px;}
+
+.ship img:nth-of-type(1){position: absolute;     z-index: 9; right: 0;  top: -60px;}
+
+.ship img:nth-of-type(2){position: relative;}
+
+.ship img:nth-of-type(3){position: absolute; position: absolute; bottom: 0; left: -65px;  bottom: -40px;}
+
+.about_company h2{font-size: 50px;  font-weight: 700; padding-bottom: 20px;}
+
+.about_company button{color: #D62536; font-size: 25px; border-radius: 0; font-weight: 700; padding: 20px 0px;}
+
+.about_company button a{color: #D62536; }
+
+.about_company p{font-size: 22px;  padding-bottom: 20px;}
+
+.about_company {    margin-top: 30px;}
+
+.section_two{width: 100%; float: left; background-color: #0B1B2B; padding: 140px 0; margin-top: 90px;}
+
+.section_two h2{ font-size: 61px; 
+    text-align: center;
+    width: 70%; color: #fff;
+    margin: 0 auto; letter-spacing: 3px;}
+
+.section_two h2 span{display: block; }
+
+.section_two p{font-size: 24px; text-align: center; color: #fff; padding: 10px 0; letter-spacing: 1px;}
+
+.video{width: 100%; float: left;}
+
+.video video{width: 50%;  margin-top: -140px;}
+
+.section_three{width: 100%; float: left;    margin-top: 60px;}
+
+.oil_seeds img{position: relative; margin-bottom: 25px;}
+
+.oil_seeds{transition: all ease 4s;}
+
+.oil_seeds p{ position: absolute;
+    color: #fff;
+    font-size: 31px;
+    width: 34%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    display: none;
+     transition: all ease 4s;
+	}
+
+.oil_seeds:hover p{font-size: 20px; display: block;  transition: all ease 4s;}
+
+.section_three button{background-color: #D62536;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0;
+    font-weight: 700;
+    padding: 20px 60px;}
+
+.section_four{width: 100%; float: left; margin-top: 90px;}
+
+.trust_content h2{ font-size: 60px;
+    width: 60%;
+    letter-spacing: 2px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.trust_content h2 span{color: #D62536;}
+
+.all_client {text-align: center;}
+
+.all_client img {
+    width: 16%;
+    margin: 40px 20px;
+    padding-right: 97px;
+
+}
+
+
+.section_five{width: 100%; float: left; margin-top: 90px;}
+
+.section_five h2{font-size: 50px; font-weight: 800;}
+
+.ship1 button{background-color: #D62536;
+    color: #fff;
+    border-radius: 0;
+    font-weight: 700;
+     padding: 10px 55px 0 21px;
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: left;}
+
+.ship1 button span{display: block;}
+
+.ship1 p{    font-size: 30px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.section_six{width: 100%; float: left;background-color: #0B1B2B; padding: 120px 0;}
+
+.section_six h2{color: #fff; text-align: center; font-size: 50px;}
+
+.section_six p {
+    color: #fff;
+    font-size: 25px;
+    column-count: 2 !important;
+    column-gap: 50px;
+}
+
+.section_six p span{color: #D62536;}
+
+footer{width: 100%; float: left; padding: 120px 0;}
+
+.footer_logo p{font-size: 22px;  letter-spacing: 1px; color: #999;}
+
+.new_sub h4{font-size: 30px; font-weight: 700;}
+
+.new_sub p{    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #999;
+}
+
+.footer_logo ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 0;}
+
+.icon li {
+    float: left;
+    padding: 20px 38px 0 0 !IMPORTANT;
+    color: #999;
+}
+
+.news_letter h2{color: #D62536;}
+
+.news_content p{font-size: 20px; letter-spacing: 1px;}
+
+.news_email input{width: 80%;
+    border: none;
+    border-bottom: 1px solid #999;
+    font-size: 25px;
+    padding-bottom: 10px;}
+
+.news_email i{background-color:#D62536; padding: 7px 10px; color: #fff; margin-left: -40px; }    
+
+.our_service{margin-top: 20px;}
+
+.our_service ul li{    list-style: none;
+    padding: 7px 0;
+    font-size: 20px;}
+
+.company ul li{    list-style: none;
+    padding: 7px 0;
+    font-size: 20px;}
+
+
+.help ul li{    list-style: none;
+    padding: 7px 0;
+    font-size: 20px;}
+
+.our_service ul li:nth-of-type(1){    color: #000;
+    font-size: 35px;
+    font-weight: 700;}
+
+.copyright{margin-top: 40px;}
+
+
+@media screen and (min-width: 991px) and (max-width: 1024px)
+{
+    .logi_move {  background-size: cover;}
+    .hero_contest {    width: 50%;}
+    .hero_contest h1 {  font-size: 45px;}
+    .section_two {    margin-top: 60px; }
+    .section_two h2 { font-size: 51px; width: 80%;}
+    .section_two h2 span {   display: unset;}
+    .video video {   width: 75%;}
+    .section_three {   margin-top: 60px;}
+    .oil_seeds p {   width: 74%; line-height: 1.3;}
+    .about_company {  margin-top: 0px;}
+    .section_one {  margin-top: 140px;}
+    .trust_content h2 {  width: 81%;}
+    .all_client img { width: 12%; margin: 40px 20px; padding-right: 17px;}
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 991px)
+{
+
+    .logi_move {  background-image: url(../images/hero.png); background-size: cover;}
+    .hero_contest {    width: 50%;}
+    .hero_contest p {   font-size: 24px;}
+    .hero_contest h1 {  font-size: 50px;}
+    .section_one {  margin-top: 120px;}
+    .about_company h2 { font-size: 40px;  padding-bottom: 10px;}
+    .about_company p {   padding-bottom: 5px;}
+    .section_two {    margin-top: 60px; }
+    .section_two h2 { font-size: 44px; width: 90%;}
+    .section_two h2 span {   display: unset;}
+    .video video {width: 75%;}
+    .section_three {   margin-top: 60px;}
+    .oil_seeds p {   width: 74%; line-height: 1.3; font-size: 22px;}
+    .about_company {  margin-top: 0px;}
+    .section_one {  margin-top: 140px;}
+    .trust_content h2 {  width: 81%;}
+    .all_client img { width: 14%; margin: 40px 20px; padding-right: 17px;}
+    .ship1 button { padding: 10px 75px 0 21px;}
+    .section_six {padding: 80px 0;}
+    .section_six p {  font-size: 25px;}
+    footer {  padding: 80px 0;}
+}
+
+
+@media screen and (min-width: 568px) and (max-width: 767px)
+{
+    .logi_move {  background-image: url(../images/hero.png); background-size: cover;}
+    .hero_contest {    width: 80%;}
+    .hero_contest p {   font-size: 24px;}
+    .hero_contest h1 {  font-size: 50px;}
+    .section_one {  margin-top: 60px;}
+    .about_company h2 { font-size: 40px;  padding-bottom: 10px;}
+    .about_company p {   padding-bottom: 5px; font-size: 27px;}
+    .section_two {    margin-top: 80px; }
+    .section_two h2 { font-size: 35px; width: 100%;}
+    .section_two video{width: 100% !important;}
+    .section_two h2 span {   display: unset;}
+    .video video { width: 75%;}
+    .section_three {   margin-top: 60px;}
+    .oil_seeds p {   width: 74%; line-height: 1.3; font-size: 42px;}
+    .ship1 button span {  display: unset;}
+    .about_company {  margin-top: 0px;}
+    .trust_content h2 {  width: 81%;}
+    .all_client img { width: 21%; margin: 40px 20px; padding-right: 17px;}
+    .ship1 button { padding: 10px 20px;}
+    .section_five {   margin-top: 60px;}
+    .section_six {padding: 80px 0; margin-top: 60px;}
+    .section_six p {  font-size: 25px; line-height: 35px; column-count: 1 !important;}
+    footer {  padding: 80px 0;}
+    .footer_logo ul li {   font-size: 35px;}
+    .icon li {  padding: 20px 90px 0 0 !important;}
+    .news_letter h2 {  font-size: 52px !important;    padding: 20px 0 0 0;}
+    .news_content p { font-size: 35px;    letter-spacing: 1px;}
+    .news_email input { width: 90%; font-size: 35px;  padding-bottom: 10px;}
+    .our_service ul li:nth-of-type(1) {  font-size: 52px;}
+    .our_service ul li {  font-size: 35px;}
+    .copyright p.text-center {  font-size: 32px;}
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px)
+{
+    .nav_bg {  padding: 0px 0 40px 10px;}
+    .logi_move {  background-image: url(../images/hero.png); background-size: cover;}
+    .hero_contest {    width: 80%; margin-left: 10px;}
+    .hero_contest p {   font-size: 20px;}
+    .hero_contest h1 {  font-size: 35px;}
+    .hero_contest button { font-size: 14px;  padding: 20px 40px;}
+    .section_one {  margin-top: 60px;}
+    .about_company h2 { font-size: 35px;  padding-bottom: 10px;}
+    .about_company p {   padding-bottom: 5px; font-size: 22px;}
+    .about_company button { font-size: 25px;  margin-bottom: 50px;}
+    .section_two {    margin-top: 80px;     padding: 90px 0;}
+    .section_two h2 { font-size: 35px; width: 100%;}
+    .section_two video{width: 100% !important;}
+    .section_two h2 span {   display: unset;}
+    .section_three {   margin-top: 60px;}
+    .video video {width: 75%; margin-top: -90px;}
+    .oil_seeds p {   width: 74%; line-height: 1.3; font-size: 25px;}
+    .ship1 button span {  display: unset;}
+    .about_company {  margin-top: 0px;}
+    .trust_content h2 {  width: 81%; font-size: 35px; line-height: 55px;}
+    .all_client img { width: 33%; margin: 40px 20px; padding-right: 17px;}
+    .section_four { margin-top: 60px;}
+    .section_five {  margin-top: 60px;}
+    .ship1 button { padding: 10px 20px;}
+    .section_six {padding: 80px 0;}
+    .section_six p {  font-size: 25px;  column-count: 1 !important;}
+    footer {  padding: 60px 0;}
+    .footer_logo ul li {   font-size: 25px; padding: 5px 0;}
+    .icon li {     padding: 20px 30px 0 0 !important;}
+    .news_letter h2 {  font-size: 35px !important;    padding: 20px 0 0 0;}
+    .news_content p { font-size: 25px;    letter-spacing: 1px;}
+    .news_email input { width: 95%; font-size: 35px;  padding-bottom: 10px;}
+    .our_service ul li:nth-of-type(1) {  font-size: 35px;}
+    .our_service ul li {  font-size: 25px; padding: 5px 0;}
+    .copyright p.text-center {  font-size: 25px;}
+    .oil_seeds { padding: 0;}
+    .col-md-6.res {  padding: 0;}
+    .ship1 p { font-size: 25px;}
+    .section_five h2 {  font-size: 35px;}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
